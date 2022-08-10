@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="shihab.diu.com.healthassistantnew.DoctorsInfo">
+
+    <!--<ListView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:id="@+id/list_item">-->
+
+    <!--</ListView>-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/sp"
+                android:layout_width="300dp"
+                android:layout_height="90dp"
+                android:id="@+id/imageView4"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp" />
+
+
+            <Button
+                android:text="ORTHOPEDIX"
+                android:textSize="20dp"
+                android:id="@+id/btn_doctor_aurthopedix"
+                android:layout_marginTop="20dp"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+
+                />
+
+            <Button
+                android:text="Medicine"
+                android:textSize="20dp"
+                android:id="@+id/btn_doctor_medicine"
+                android:layout_marginTop="10dp"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+
+
+                />
+
+            <Button
+                android:text="HEMATOLOGY"
+                android:textSize="20dp"
+                android:id="@+id/btn_doctor_hematology"
+                android:layout_marginTop="10dp"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+
+                />
+
+            <Button
+                android:text="Psychology"
+                android:textSize="20dp"
+                android:id="@+id/btn_doctor_psychology"
+                android:layout_marginTop="10dp"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+
+                />
+
+            <Button
+                android:text="NEUROLOGY"
+                android:textSize="20dp"
+                android:id="@+id/btn_doctor_neurology"
+                android:layout_marginTop="10dp"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+
+                />
+            <Button
+                android:text="Children"
+                android:textSize="20dp"
+                android:id="@+id/btn_doctor_Childeren"
+                android:layout_marginTop="10dp"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+
+                />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
